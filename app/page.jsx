@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Products from "./components/Products";
+import Products from "../components/Products";
 export default function Home() {
   const products = [
     { productName: "Product one", price: "199$", id: 1 },
